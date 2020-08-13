@@ -1,6 +1,4 @@
-# COVID-19 and Pneumonia Diagnosis
-
-## Project [ COVID-19 and Pneumonia Diagnosis ]
+# Project [ COVID-19 and Pneumonia Diagnosis ]
   - https://www.kaggle.com/c/deep-learning-competition-cs-2020
 
 ## Dataset
