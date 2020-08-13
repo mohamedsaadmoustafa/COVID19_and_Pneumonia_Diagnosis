@@ -10,18 +10,18 @@ There are 5,266 X-Ray training images, 1,341 Normal X-Ray and 3,925 (COVID-19 an
 [Dataset in Kaggle!](https://www.kaggle.com/c/deep-learning-competition-cs-2020/data)
 
 ## Data Preparation and PreProcessing:
-  • Convert to gray image
-  • Histogram Equalization
-  • resize shape to ( 128, 128 )
-  • Reshape to (128, 128, 1) “Add dimension at axis = -1”
-  • Min-Max Normalization
-  • Split Training data to 90% training and 10% validation
+  1. Convert to gray image
+  2. Histogram Equalization
+  3. resize shape to ( 128, 128 )
+  4. Reshape to (128, 128, 1) “Add dimension at axis = -1”
+  5. Min-Max Normalization
+  6. Split Training data to 90% training and 10% validation
 
 ## Data Augmentation :
-  • Randomly rotate some training images by 30 degrees
-  • Randomly Zoom by 20% some training images
-  • Randomly shift images horizontally by 10% of the width
-  • Randomly shift images vertically by 10% of the height Once our model is ready, we fit the training dataset.
+  1. Randomly rotate some training images by 30 degrees
+  2. Randomly Zoom by 20% some training images
+  3. Randomly shift images horizontally by 10% of the width
+  4. Randomly shift images vertically by 10% of the height Once our model is ready, we fit the training dataset.
 
 ## Models 'trails':
 Start with VGG19 model then change/reduce layers to score a validation accuracy up to 98.
